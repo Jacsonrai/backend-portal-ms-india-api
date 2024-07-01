@@ -1,0 +1,8 @@
+CREATE TABLE USERS(
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Email NVARCHAR(200),
+    UserName NVARCHAR(200),
+    JobTitle NVARCHAR(200)
+);
